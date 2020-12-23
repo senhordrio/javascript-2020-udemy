@@ -1,0 +1,12 @@
+const nome = "Adriano";
+const concatenação = "Olá " + nome + "!";
+const template = `
+    Olá
+    ${nome}!`;
+console.log(concatenação, template)
+
+//espressões
+console.log(`1 + 1 = ${1 + 1}`)
+
+const up = texto => texto.toUpperCase()
+console.log(`Ei... ${up('cuidado')}!`)
